@@ -15,4 +15,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "angular-docker-test" #Must be unique in Heroku
           heroku_email: "tommi.kallonen@lab.fi"
+          remote_branch: master  
           usedocker: true
